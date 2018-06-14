@@ -55,12 +55,17 @@ end
 # Define winner Method
 def winner(board)
   if won?(board)
+<<<<<<< HEAD
   board[won?(board)[0]]
+=======
+  binding.pry
+>>>>>>> f3a74018956e6cb4bd18ba026484fca5bea343c7
   end
 end
 
 
 #SOLVE FOR WINNER METHOD
+<<<<<<< HEAD
   # token = won?(board)[0]
   
   # if won?(board) == true
@@ -68,6 +73,10 @@ end
 
     # board.max_by { |token| board.count("X" || "O") }
 
+=======
+    # board.max_by { |token| board.count("X" || "O") }
+
+>>>>>>> f3a74018956e6cb4bd18ba026484fca5bea343c7
     # WIN_COMBINATIONS.detect{|token| token.is_a?("X" || "O")}
     
     # freq = board.inject(Hash.new(0)) { |h,v| h[v] += 1}.max_by(&last)
